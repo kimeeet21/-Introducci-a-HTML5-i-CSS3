@@ -1,0 +1,62 @@
+/* Full d'estils de l'exercici 4 (A1_ex5_Cognom_Nom.html) */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Tahoma, Geneva, sans-serif;
+  font-size: 13px;
+  line-height: 1.45;
+  color: #000;
+  /* franja superior turquesa i degradat suau cap al blanc */
+  background: #fff linear-gradient(to bottom,
+      #90d5d5 0, #90d5d5 40px,
+      #b6e2e3 46px,
+      #d3eeef 160px,
+      #ecf8f8 210px,
+      #ffffff 280px) no-repeat;
+}
+
+#page {
+  padding: 0 20px 24px;
+}
+
+h1 {
+  margin: 0;
+  padding: 48px 0 0;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  line-height: 55px;
+  font-weight: bold;
+  color: #ff0000;
+}
+
+h2 {
+  margin: 42px 0 19px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #f2b134;
+}
+
+h2 + h3 { margin-top: 0; }
+
+h3 {
+  margin: 20px 0;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: normal;
+  color: #888;
+}
+
+p {
+  margin: 0 0 13px;
+}
+
+#footer {
+  height: 24px;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  background: #f4f4f4;
+}
